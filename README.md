@@ -1,11 +1,11 @@
-Telegraf Client
-=============
+# Telegraf Client
+
 A C# client to interface with InfluxDb Telegraph client, forked from the 
 awesome [StatsD client](https://github.com/Pereingo/statsd-csharp-client) by Goncalo Pereira.
 
 Install the client via NuGet with the [Telegraf package](http://nuget.org/packages/Telegraf).
 
-##Usage
+## Usage
 
 At app startup, configure the `Metrics` class (other options are documented on `MetricsConfig`):
 
@@ -29,6 +29,6 @@ Metrics.Set("something-special", "3");
 
 You can also time with the disposable overload:
 
-##Development
+## Development
 * Please have a chat about any big features before submitting PR's
 * NuGet is packaged as an artefact. Grab that `*.nupkg` and upload it to NuGet.org
